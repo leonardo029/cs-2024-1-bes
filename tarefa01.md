@@ -15,7 +15,7 @@
   
    >  Existem outras arquiteturas utilizadas como base para a criação de APIs, como por exemplo: SOAP ou XML-RPC, porém não serão abordadas nesse estudo.
    
-* A arquitetura REST não obriga a utilização de uma linguagem/tecnologia específica, o único requisito exigido por ela é que na hora do desenvolvimento sejam respeitadas as seguintes **seis** regras:
+* A arquitetura REST não obriga a utilização de uma linguagem/tecnologia específica, o único requisito exigido por ela é que na hora do desenvolvimento sejam respeitadas as seguintes regras:
   
   * **Interface uniforme:**
     *  Todas as solicitações da API para o mesmo recurso devem ser iguais, ou seja, todas as solicitações à API devem ser feitas da mesma maneira e mantendo um mesmo formato, independentemente do cliente ou da ferramenta que está fazendo a solicitação.
