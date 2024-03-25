@@ -1,5 +1,5 @@
 # :books: Estudo sobre Rest API
-## :question: O que é uma API?
+## :question: O que é uma API (Application Programming Interface)?
 *  É uma interface que permite a comunicação entre duas aplicações (microsserviços) distintas, ou seja, faz o intermédio entre o requerente (cliente) e o requisitado (servidor), fazendo com que os dados sejam filtrados, seja na entrada ou na saída, servindo como uma barreria defensiva e consumindo apenas os recursos necessários para que a funcionalidade seja executada e devolve apenas os dados que satisfaçam a necessidade do requerente, seja ele uma funcionalidade ou o próprio usuário;
 *  A interface permite que dois componentes se comuniquem/conectem, desde que obedeçam um conjunto de definições e protocolos pré definidos por ela;
 *  Toda essa ação/comunicação é mascarada e o requerente não tem ciência nem acesso.
@@ -17,8 +17,11 @@
 * A arquitetura REST não obriga a utilização de uma linguagem/tecnologia específica, o único requisito exigido por ela é que na hora do desenvolvimento sejam respeitadas as seguintes **seis** regras:
   
   * **Interface uniforme:**
+    *  Todas as solicitações da API para o mesmo recurso devem ser iguais, ou seja, todas as solicitações à API devem ser feitas da mesma maneira e mantendo um mesmo formato, independentemente do cliente ou da ferramenta que está fazendo a solicitação.
   * **Desacoplamento do cliente-servidor:**
+    *   Quando projetadas, as APIs REST se baseiam na independência entre cliente e servidor. O cliente apenas precisa receber a URI do recurso e se comunica via HTTP, enquanto o servidor processa as requisições e fornece os dados solicitados. Assim, não havendo uma interação direta do cliente com o servidor, nem do servidor com o cliente.
   * **Sem estado definido:**
+    *  APIs REST operam sem estado, exigindo que cada requisição seja autossuficiente. Isso significa que todas as informações necessárias para processar a requisição devem estar presentes nela, dispensando a necessidade de sessões no servidor. Os servidores não podem armazenar dados específicos de cada cliente, garantindo uma comunicação leve e escalável. 
   * **Capacidade de armazenamento em cache:**
   * **Arquitetura de sistema em camadas:**
   * **Código sob demanda (opcional):**
