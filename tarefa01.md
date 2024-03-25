@@ -24,8 +24,16 @@
   * **Sem estado definido:**
     *  APIs REST operam sem estado, exigindo que cada requisição seja autossuficiente. Isso significa que todas as informações necessárias para processar a requisição devem estar presentes nela, dispensando a necessidade de sessões no servidor. Os servidores não podem armazenar dados específicos de cada cliente, garantindo uma comunicação leve e escalável. 
   * **Capacidade de armazenamento em cache:**
-    * Sempre que possível, os recursos devem ser armazenados em cache, seja pelo cliente ou servidor, e as respostas fornecidas pelo servidor devem conter todas as informações/permissões necessárias de chace, visando assim, uma resposta mais rápida e imediata, resultando em um melhor desempenho e escalabilidade.
+    * Sempre que possível, os recursos devem ser armazenados em cache, seja pelo cliente ou servidor, e as respostas fornecidas pelo servidor devem conter todas as informações/permissões necessárias de cache, visando assim, uma resposta mais rápida e imediata, resultando em um melhor desempenho e escalabilidade.
   * **Arquitetura de sistema em camadas:**
-    * Não é possível se afirmar e confiar que as chamadas e respostas sejam lineares e simplórias, podem haver diversos intermediários em diferentes níveis que são acessados para que seja possível realizar a atividade requisitada pelo cliente. O desenvolvimento da sua API deve ser feito de uma forma que, nem o cliente nem o servidor tenham a mínima noção da complexidade da comunicação estabelecida entre os sistemas.
+    * Não é possível se afirmar e confiar que as chamadas e respostas sejam lineares e simplórias, podendo haver diversos intermediários em diferentes níveis que são acessados para que seja possível realizar a atividade requisitada pelo cliente. A API deve ser feita de uma forma que, nem o cliente e nem o servidor tenham a mínima noção da complexidade da comunicação estabelecida entre os sistemas, deve ser algo velado.
   * **Código sob demanda (opcional):**
-    * Em sua maioria, as APIs REST manipulam recursos estáticos, porém, em certos casos a resposta do servidor pode conter um código executável, nesse caso, ele só deve ser executado sob demanda.
+    * Em sua maioria, as APIs REST manipulam recursos estáticos, porém, em certos casos a resposta do servidor pode conter um código executável. Este código só deve ser executado sob demanda.
+      
+  ![](https://www.sololearn.com/wp-content/uploads/2023/03/Representation-of-REST-flow-1024x291.png)
+  
+## Referências
+  * https://www.ibm.com/br-pt/topics/rest-apis
+  * https://www.ibm.com/br-pt/topics/api
+  * https://www.redhat.com/pt-br/topics/api/what-is-a-rest-api
+  * https://aws.amazon.com/pt/what-is/api/
