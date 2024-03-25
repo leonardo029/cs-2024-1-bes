@@ -28,4 +28,4 @@
   * **Arquitetura de sistema em camadas:**
     * Não é possível se afirmar e confiar que as chamadas e respostas sejam lineares e simplórias, podem haver diversos intermediários em diferentes níveis que são acessados para que seja possível realizar a atividade requisitada pelo cliente. O desenvolvimento da sua API deve ser feito de uma forma que, nem o cliente nem o servidor tenham a mínima noção da complexidade da comunicação estabelecida entre os sistemas.
   * **Código sob demanda (opcional):**
-    * Em sua maioria, as APIs REST manipulam recursos estáticos, porém, em certos casos a resposta do servidor pode conter um código executável, o qual só deve ser executado sob demanda.
+    * Em sua maioria, as APIs REST manipulam recursos estáticos, porém, em certos casos a resposta do servidor pode conter um código executável, nesse caso, ele só deve ser executado sob demanda.
