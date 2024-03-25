@@ -1,7 +1,7 @@
 ![](https://www.alura.com.br/artigos/assets/qual-e-a-melhor-linguagem-de-programacao/qual-e-a-melhor-linguagem-de-programacao.png)
 # :books: Estudo sobre Rest API
 ## :question: O que é uma API (Application Programming Interface)?
-*  É uma interface que permite a comunicação entre duas aplicações (microsserviços) distintas, ou seja, faz o intermédio entre o requerente (cliente) e o requisitado (servidor), fazendo com que os dados sejam filtrados, seja na entrada ou na saída, servindo como uma barreria defensiva e consumindo apenas os recursos necessários para que a funcionalidade seja executada e devolve apenas os dados que satisfaçam a necessidade do requerente, seja ele uma funcionalidade ou o próprio usuário;
+*  É uma interface que permite uma comunicação segura entre duas aplicações (microsserviços) distintas, ou seja, faz o intermédio entre o requerente (cliente) e o requisitado (servidor), fazendo com que os dados sejam filtrados, seja na entrada ou na saída, servindo como uma barreria defensiva e consumindo apenas os recursos necessários para que a funcionalidade seja executada e devolve apenas os dados que satisfaçam a necessidade do requerente, seja ele uma funcionalidade ou o próprio usuário;
 *  A interface permite que dois componentes se comuniquem/conectem, desde que obedeçam um conjunto de definições e protocolos pré definidos por ela;
 *  Toda essa ação/comunicação é mascarada e o requerente não tem ciência nem acesso.
 
