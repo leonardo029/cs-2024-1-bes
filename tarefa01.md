@@ -18,7 +18,7 @@
 * A arquitetura REST não obriga a utilização de uma linguagem/tecnologia específica, o único requisito exigido por ela é que na hora do desenvolvimento sejam respeitadas as seguintes regras:
   
   * **Interface uniforme:**
-    *  Todas as solicitações da API para o mesmo recurso devem ser iguais, ou seja, todas as solicitações à API devem ser feitas da mesma maneira e mantendo um mesmo formato, independentemente do cliente ou da ferramenta que está fazendo a solicitação.
+    *  Todas as solicitações da API para o mesmo recurso devem ser iguais, ou seja, todas as solicitações à API devem ser feitas da mesma maneira e mantendo um mesmo formato, independente do cliente ou da ferramenta que está fazendo a solicitação.
   * **Desacoplamento do cliente-servidor:**
     *   Quando projetadas, as APIs REST se baseiam na independência entre cliente e servidor. O cliente apenas precisa receber a URI do recurso e se comunica via HTTP, enquanto o servidor processa as requisições e fornece os dados solicitados. Assim, não havendo uma interação direta do cliente com o servidor, nem do servidor com o cliente.
   * **Sem estado definido:**
