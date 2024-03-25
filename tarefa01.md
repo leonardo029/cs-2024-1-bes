@@ -9,7 +9,6 @@
 *  É um conjunto de restrições usadas para a criação de APIs que utiliza como base o protocolo HTTP;
   
     > *  HTTP (Hypertext Transfer Protocol) -> É um protocolo que permite a comunicação entre máquinas diferentes, uma espécie de padronização universal.
-    <!-- > *  JSON (JavaScript Object Notation) -> É uma (das muitas) formatação/maneira de se enviar e receber dados através da web. -->
     
 *  A arquitetura proporciona um nível relativamente alto de flexibilidade e liberdade para desenvolvedores.
   
