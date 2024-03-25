@@ -2,7 +2,7 @@
 # :books: Estudo sobre Rest API
 ## :question: O que é uma API (Application Programming Interface)?
 *  É uma interface que permite uma comunicação segura entre duas aplicações (microsserviços) distintas, ou seja, faz o intermédio entre o requerente (cliente) e o requisitado (servidor), fazendo com que os dados sejam filtrados, seja na entrada ou na saída, servindo como uma barreria defensiva e consumindo apenas os recursos necessários para que a funcionalidade seja executada e devolve apenas os dados que satisfaçam a necessidade do requerente, seja ele uma funcionalidade ou o próprio usuário;
-*  A interface permite que dois componentes se comuniquem/conectem, desde que obedeçam um conjunto de definições e protocolos pré definidos por ela;
+*  A interface permite que dois componentes se comuniquem/conectem desde que obedeçam um conjunto de definições e protocolos pré definidos por ela;
 *  Toda essa ação/comunicação é mascarada e o requerente não tem ciência nem acesso.
 
 ## :question: O que é a arquitetura REST (Representational State Transfer)?
