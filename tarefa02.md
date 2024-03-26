@@ -104,7 +104,7 @@
 ## 24. Altere o arquivo "cs.txt" adicionando a seguinte linha: "UFG - Universidade Federal de Goiás"
 	
 	nano cs.txt
-	--adicione  a frase "UFG - Universidade Federal de Goiás"
+	--adicione a frase "UFG - Universidade Federal de Goiás"
 
 ## 25. Verifique a diferença entre a versão "comitada" e a versão atual do arquivo cs.txt
 
