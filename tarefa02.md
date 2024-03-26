@@ -168,11 +168,11 @@
 
 ## 39. Faça o "merge" das mudanças realizadas no "develop" para a branch "master"
 
-	38.1 Certifique-se que está na master
+	39.1 Certifique-se que está na master
 	
 		git branch
 	
-	38.2. Faça o merge
+	39.2. Faça o merge
 	
 		git merge develop
 
