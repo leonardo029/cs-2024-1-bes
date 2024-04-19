@@ -6,6 +6,5 @@ public class Bairro {
 
     public Bairro(String nome, Cidade cidade) {
         this.nome = nome;
-        this.cidade = cidade;
     }
 }

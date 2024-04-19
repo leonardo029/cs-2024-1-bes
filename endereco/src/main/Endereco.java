@@ -8,12 +8,9 @@ public class Endereco {
     private TipoEndereco tipoEndereco;
     private Logradouro logradouro;
 
-    public Endereco(Integer numero, String complemento, Integer cep, Bairro bairro, TipoEndereco tipoEndereco, Logradouro logradouro) {
+    public Endereco(Integer numero, String complemento, Integer cep) {
         this.numero = numero;
         this.complemento = complemento;
         this.cep = cep;
-        this.bairro = bairro;
-        this.tipoEndereco = tipoEndereco;
-        this.logradouro = logradouro;
     }
 }

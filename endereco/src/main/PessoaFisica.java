@@ -9,10 +9,9 @@ public class PessoaFisica {
     private Date dataNascimento;
     private List<Endereco> enderecos;
 
-    public PessoaFisica(String nome, String sexo, Date dataNascimento, List<Endereco> enderecos) {
+    public PessoaFisica(String nome, String sexo, Date dataNascimento) {
         this.nome = nome;
         this.sexo = sexo;
         this.dataNascimento = dataNascimento;
-        this.enderecos = enderecos;
     }
 }

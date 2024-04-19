@@ -5,9 +5,8 @@ public class Estado {
     public String nome;
     private Pais pais;
 
-    public Estado(String sigla, String nome, Pais pais) {
+    public Estado(String sigla, String nome) {
         this.sigla = sigla;
         this.nome = nome;
-        this.pais = pais;
     }
 }
